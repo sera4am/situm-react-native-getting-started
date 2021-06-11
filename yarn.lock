@@ -2911,9 +2911,9 @@ getpass@^0.1.1:
     assert-plus "^1.0.0"
 
 glob-parent@^5.0.0:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-5.1.1.tgz#b6c1ef417c4e5663ea498f1c45afac6916bbc229"
-  integrity sha512-FnI+VGOpnlGHWZxthPGR+QhR78fuiK0sNLkHQv+bL9fQi57lNNdquIbna/WrfROrolq8GK5Ek6BiMwqL/voRYQ==
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-5.1.2.tgz#869832c58034fe68a4093c17dc15e8340d8401c4"
+  integrity sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==
   dependencies:
     is-glob "^4.0.1"
 
@@ -5086,9 +5086,10 @@ react-lifecycles-compat@2.0.0:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-2.0.0.tgz#71d9c4cde47114c4102454f76da055c2bc48c948"
   integrity sha512-txfpPCQYiazVdcbMRhatqWKcAxJweUu2wDXvts5/7Wyp6+Y9cHojqXHsLPEckzutfHlxZhG8Oiundbmp8Fd6eQ==
 
-react-native-maps@ArnoldoJr/react-native-maps#add-overlay-rotation-support:
+react-native-maps@react-native-maps/react-native-maps#pull/3214/head:
   version "0.26.1"
-  resolved "https://codeload.github.com/ArnoldoJr/react-native-maps/tar.gz/1d6d3d76f2acb261ab90fa93376d0966e59b41e3"
+  uid "1d6d3d76f2acb261ab90fa93376d0966e59b41e3"
+  resolved "https://codeload.github.com/react-native-maps/react-native-maps/tar.gz/1d6d3d76f2acb261ab90fa93376d0966e59b41e3"
 
 react-native-navigation@^6.6.0:
   version "6.6.2"
@@ -5101,8 +5102,15 @@ react-native-navigation@^6.6.0:
     react-lifecycles-compat "2.0.0"
     tslib "1.9.3"
 
-"react-native-situm-plugin@file:../situm-react-native-plugin":
-  version "0.0.5"
+react-native-popup-menu@^0.15.10:
+  version "0.15.11"
+  resolved "https://registry.yarnpkg.com/react-native-popup-menu/-/react-native-popup-menu-0.15.11.tgz#df96b1a909ecbba84487821061ce6e29e7c7bb20"
+  integrity sha512-f5q2GoDN99bkA24wHiwasaErcdQEgyqYZ8IYuZPOrZNFr66E4rg6f4LElSVBA3EZJTSq5OddVeaOcU340bSTEg==
+
+react-native-situm-plugin@0.0.11:
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/react-native-situm-plugin/-/react-native-situm-plugin-0.0.11.tgz#d3c3c0719912637662025a408b5c73d648f2354e"
+  integrity sha512-RSa/AFt8O/m55lk6NE0xUYuuZCxnHlp/+6cHZHW0y8L4RDPe8xDpO4WIA5mmRf9PpPZ1T5buQbszTn87gvMCxw==
 
 react-native@0.62.2:
   version "0.62.2"
