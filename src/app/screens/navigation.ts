@@ -61,7 +61,7 @@ export const NavigationMap: any = {
     options: {
       topBar: {
         title: {
-          text: "FloorMap View for IPC",
+          text: "FloorMap View for PSS",
         }
       }
     }
