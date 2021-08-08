@@ -11,6 +11,7 @@ import { RouteOverMap } from "./RouteOverMap/index";
 import { EventsOfBuilding } from "./EventsOfBuilding/index";
 import { PointInsideGeofence } from "./PointInsideGeofence/index";
 import { BuildingList } from "./BuildingList/index";
+import { FloorMap } from "./FloorMap/index"
 import { Settings } from "./Settings/index";
 
 export const NavigationMap: any = {
@@ -53,6 +54,17 @@ export const NavigationMap: any = {
     passProps: {
       building: {},
     },
+  },
+  FloorMap: {
+    name: "FloorMap",
+    component: FloorMap,
+    options: {
+      topBar: {
+        title: {
+          text: "FloorMap View for IPC",
+        }
+      }
+    }
   },
   IndoorOutdoorPositioning: {
     name: "IndoorOutdoorPositioning",
